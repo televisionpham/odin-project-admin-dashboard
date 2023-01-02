@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project - Admin dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-panel">
+            <div class="logo">
+                <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+                </svg><span>Dashboard</span>
+            </div>
+            <ul class="side-panel-links">
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-house"></i><span
+                            class="nav-link-title">Home</span></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-regular fa-address-card"></i><span
+                            class="nav-link-title">Profile</span></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-message"></i><span
+                            class="nav-link-title">Messages</span></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-clock"></i><span
+                            class="nav-link-title">History</span></a></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-file"></i><span
+                            class="nav-link-title">Tasks</span></a></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-users-line"></i><span
+                            class="nav-link-title">Communities</span></a></a></li>
+            </ul>
+            <ul id="settings" class="side-panel-links">
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-gear"></i><span
+                            class="nav-link-title">Settings</span></a></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-circle-question"></i><span
+                            class="nav-link-title">Support</span></a></a></li>
+                <li><a href="#" class="nav-link"><i class="nav-link-icon fa-solid fa-user-shield"></i><span
+                            class="nav-link-title">Privacy</span></a></a></li>
+            </ul>
+        </div>
+        <div id="app">
+            <header>
+                <div id="information">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text">
+                    </div>
+                    <i id="notification" class="fa-regular fa-bell"></i>
+                    <div class="account">
+                        <img class="avatar">
+                    </div>
+                </div>
+                <div id="menu"></div>
+            </header>
+            <div id="content">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
