@@ -48,20 +48,159 @@
         </div>
         <div id="app">
             <header>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </div>
                 <div id="information">
-                    <div class="search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text">
-                    </div>
                     <i id="notification" class="fa-regular fa-bell"></i>
-                    <div class="account">
-                        <img class="avatar">
+                    <div id="account">
+                        <img class="avatar-small" src="images/avatar-01.jpg"><span class="h5">Van Pham</span>
                     </div>
                 </div>
-                <div id="menu"></div>
+                <div id="greeting">
+                    <img class="avatar-large" src="images/avatar-01.jpg">
+                    <div id="greet-account">
+                        <div class="h6">Hi there,</div>
+                        <div class="h3">Van Pham (@vanpt)</div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <button class="btn btn-primary">New</button>
+                    <button class="btn btn-primary">Upload</button>
+                    <button class="btn btn-primary">Share</button>
+                </div>
             </header>
             <div id="content">
-                <div></div>
+                <div id="projects">
+                    <div class="h4">Your Projects</div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-title">Super Cool Project</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Less Cool Project</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Impossible App</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Easy Peasy App</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Add Blocker</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">Money Maker</div>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </div>
+                            <div class="card-footer">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <div id="announcements">
+                        <div class="h4">Announcements</div>
+                        <div class="list">
+                            <div class="list-item">
+                                <div class="item-title">Site Maintenance</div>
+                                <div class="item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            </div>
+                            <div class="list-item">
+                                <div class="item-title">Community Share Day</div>
+                                <div class="item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            </div>
+                            <div class="list-item">
+                                <div class="item-title">Udpated Privacy Plicy</div>
+                                <div class="item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="trending">
+                        <div class="h4">Trending</div>
+                        <div class="list">
+                            <div class="account-item">
+                                <img class="avatar-small" src="images/avatar-01.jpg">
+                                <div class="account-info">
+                                    <div class="account-name">@vanpt</div>
+                                    <div class="account-full-name">Pham Thanh Van</div>
+                                </div>
+                            </div>
+                            <div class="account-item">
+                                <img class="avatar-small" src="images/avatar-02.png">
+                                <div class="account-info">
+                                    <div class="account-name">@svhb</div>
+                                    <div class="account-full-name">Sinh Van Huyen Bi</div>
+                                </div>
+                            </div>
+                            <div class="account-item">
+                                <img class="avatar-small" src="images/avatar-03.jpg">
+                                <div class="account-info">
+                                    <div class="account-name">@vonich</div>
+                                    <div class="account-full-name">Von Van Nick</div>
+                                </div>
+                            </div>
+                            <div class="account-item">
+                                <img class="avatar-small" src="images/avatar-04.png">
+                                <div class="account-info">
+                                    <div class="account-name">@stickman</div>
+                                    <div class="account-full-name">Henry Stick Man</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
